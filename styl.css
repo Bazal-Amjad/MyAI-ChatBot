@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(17, 13, 30);
+    background: linear-gradient(to top bottom , #977DFE, #6878FF);
+}
+.circle{
+    background: radial-gradient(farthest-side at 10px 300px, rgb(253, 55, 17), rgba(12, 55, 17, -0.55));
+    width: 100px;
+    height: 100px;
+    border-radius: 50rem;
+    top: 20%;
+    left: 25%;
+    border: 2px solid orange;
+    position: absolute;
+
+}
+.circle2{
+    background: radial-gradient(farthest-side at 10px 300px, rgb(233, 60, 19), rgba(13, 23, 24, -0.8));
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    position: absolute;
+    top: 39%;
+    left: 17%;
+}
+/*navbar*/
+
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+nav> ul> li{
+    display: inline;
+    padding: 20px;
+    padding-right: 40px;
+}
+nav> ul> li> a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+nav> h2{
+    color: rgb(20, 90, 62);
+    padding: 30px;
+    font-size: 35px;
+}
+/* chatbot */
+.chatbot {
+   text-align: center;
+   justify-content: center;
+    color: white;
+    padding: 20px;
+}
+/* telegram */
+
+.telegram> h2{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.slider-container{
+    position: relative;
+    width: 80%;
+    max-width: 80% ;
+    margin: 0 auto;
+}
+.slick-slider{
+    display: flex;
+   justify-content: center;
+    padding-top: 30px;
+}
+.slider-arrows{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    transform: translateY(110px);
+}
+.prev-arrow{
+    color: gray;
+    cursor: pointer;
+    padding-right: 140px;
+    font-size: 40px;
+}
+.next-arrow{
+    color: gray;
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 1px;
+}
+.slick-slider img{
+    max-width: 80%;
+    height: auto;
+   padding: 20px;
+}
+/* whatsapp */
+.telegram{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.slide-container{
+    position: relative;
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.slick{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.slide-arrows{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    transform: translateY(80px);
+    top: 80px;
+    left: 0;
+    right: 0;
+}
+.left-arrow{
+    color: gray;
+    cursor: pointer;
+    padding-right: 140px;
+    font-size: 40px;
+}
+.right-arrow{
+    color: gray;
+    cursor: pointer;
+    font-size: 40px;
+}
+.slick img{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+}
+/* Download */
+.download{
+    text-align: center;
+    color: white
+
+}
+.text{
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+p{
+    color: white;
+    padding-left: 5%;
+}
+.mobile{
+    display: flex;
+    position: absolute;
+    left: 75%;
+    transform: translateY(-120%);
+    max-width: 30%;
+}
+.google{
+    padding: 20px;
+    padding-left: 5%;
+}
+h3{
+    color: rgb(20, 90, 62) ;
+    padding-left: 5%;
+    font-size: 29px;
+    padding-top: 42px;
+}
+.email{
+    padding-left: 5%;
+}
+input{
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(17, 13, 30);
+    border: 1px solid rgb(20, 90, 62);
+    height: 34px;
+    text-align: justify;
+    padding-left: 10px;
+}
+.tags{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 80%;
+    transform: translateY(-180%);
+    text-decoration: none;
+}
+.tags> ul> li{
+    list-style: none;
+    color: white;
+    padding: 8px;
+}
+.copy{
+    padding-top: 20px;
+}
